@@ -1,8 +1,11 @@
+
 # GettingAndCleaningDataAssignment
 Coursera week 4 peer-graded assignment
 
 This repository is my submission for the assignment in the Coursera Getting and Cleaning Data course project, week 4.
+
 Instructions: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
+
 Files created: 
 
 	1. codebook.md
