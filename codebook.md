@@ -13,16 +13,61 @@ The run_analysis.R script performs getting and cleaning data.
 	
 3. Reading data, assigning to variables, adding column names  
 
-|file	|variables	|rows	|columns	|contains	|column names|
-|---|---|---|---|---|---|---|
-|features.txt	|features	|561	|2	|integer, factor w 477 levels (see features_info.txt)||	 
-activity_labels.txt	activity_labels	6	2	integer, factor w 6 levels (labels activity)	activity_code, activity
-test/subject_test.txt	subject_test	2947	1	integer (subjects being observed)	subject
-test/X_test.txt	x_test	2947	561	numeric (recorded features test data)	features[,2]
-test/y_test.txt	y_test	2947	1	integer (test data of activities code labels)	activity_code
-train/subject_train.txt	subject_train	7352	1	integer (subjects being observed)	subject
-train/X_test.txt	x_train	7352	561	numeric (recorded features traindata)	features[,2]
-train/y_test.txt	y_train	7352	1	integer (train data of activities code labels)	activity_code
+file
+variables
+rows
+columns
+contains
+column names
+features.txt
+features
+561
+2
+integer, factor w 477 levels (see features_info.txt)
+ 
+activity_labels.txt
+activity_labels
+6
+2
+integer, factor w 6 levels (labels activity)
+activity_code, activity
+test/subject_test.txt
+subject_test
+2947
+1
+integer (subjects being observed)
+subject
+test/X_test.txt
+x_test
+2947
+561
+numeric (recorded features test data)
+features[,2]
+test/y_test.txt
+y_test
+2947
+1
+integer (test data of activities code labels)
+activity_code
+train/subject_train.txt
+subject_train
+7352
+1
+integer (subjects being observed)
+subject
+train/X_test.txt
+x_train
+7352
+561
+numeric (recorded features traindata)
+features[,2]
+train/y_test.txt
+y_train
+7352
+1
+integer (train data of activities code labels)
+activity_code
+
 
 
 ### Assignment steps:
