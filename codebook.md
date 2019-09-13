@@ -38,20 +38,20 @@ The run_analysis.R script performs getting and cleaning data.
 		* 10299 rows,  563 columns  
 	
 2. Extract only the measurements on the mean and standard deviation for each measurement.  
-	mean_std_data (10299 rows, 81 columns) is created by subsetting merged_data, selecting only columns: subject, activity_code and the measurements on the mean and standard deviation for each measurement  
+	* mean_std_data (10299 rows, 81 columns) is created by subsetting merged_data, selecting only columns: subject, activity_code and the measurements on the mean and standard deviation for each measurement  
 	
 3. Use descriptive activity names to name the activities in the data set  
-	activity_data: (10299 rows, 82 columns) is created by merging mean_std_data with activity_labels  
+	* activity_data: (10299 rows, 82 columns) is created by merging mean_std_data with activity_labels  
 
 4. Appropriately label the data set with descriptive variable names.  
-	Names of features are  labelled using descriptive variable names.  
-* prefix t = Time
-* Acc = Accelerometer
-* Gyro = Gyroscope
-*	prefix f = Frequency
-* Mag = Magnitude
-* BodyBody = Body
+	* Names of features are  labelled using descriptive variable names.  
+		* prefix t = Time
+		* Acc = Accelerometer
+		* Gyro = Gyroscope
+		* prefix f = Frequency
+		* Mag = Magnitude
+		* BodyBody = Body
 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.  
-* average_data (180 rows, 88 columns) 
-* Export average_data into average_data.txt file
+	* average_data (180 rows, 88 columns) 
+	* Export average_data into average_data.txt file
