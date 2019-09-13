@@ -29,13 +29,13 @@ The run_analysis.R script performs getting and cleaning data.
 ### Assignment steps:
 
 1. Merge the training and the test sets to create one data set  
-	merged by row:  
-		subject = subject_test + subject_train  
-		activities = y_test + y-train  
-		features = x_test + x_train  
-	merged by column:  
-		merged_data = subject + activities + features  
-		10299 rows,  563 columns  
+	* merged by row:  
+		* subject = subject_test + subject_train  
+		* activities = y_test + y-train  
+		* features = x_test + x_train  
+	* merged by column:  
+		* merged_data = subject + activities + features  
+		* 10299 rows,  563 columns  
 	
 2. Extract only the measurements on the mean and standard deviation for each measurement.  
 	mean_std_data (10299 rows, 81 columns) is created by subsetting merged_data, selecting only columns: subject, activity_code and the measurements on the mean and standard deviation for each measurement  
