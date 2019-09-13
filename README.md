@@ -2,17 +2,18 @@
 # GettingAndCleaningDataAssignment
 Coursera week 4 peer-graded assignment
 
-This repository is my submission for the assignment in the Coursera Getting and Cleaning Data course project, week 4.
+This repository is my submission for the assignment in the Coursera Getting and Cleaning Data course project, week 4.  
 
-Instructions: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
+Instructions: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project . 
 
-Files created: 
+Files created:  
 
-	1. codebook.md
-	a code book that describes 
-		○ the variables
-		○ the data
-		○ any transformations or work that I performed to clean up the data
+1. codebook.md
+*	a code book that describes 
+*		○ the variables
+*		○ the data
+*		○ any transformations or work that I performed to clean up the data
+
 	2. run_analysis.R 
 	a script that does the following:
 		1. Merges the training and the test sets to create one data set.
